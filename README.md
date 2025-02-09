@@ -1,7 +1,8 @@
 # Multimodal Sentiment Analysis using Transformers
 
 ## Overview
-This project implements a **Multimodal Sentiment Analysis** system using **Transformers** for analyzing **Internet memes**. The model processes both **textual and visual data** to classify sentiment, humor, sarcasm, offensiveness, and motivational content. The project is designed to work with the **Memotion dataset** and is optimized for execution in **Google Colab**.
+This project implements a **Multimodal Sentiment Analysis** system using **Transformers** for analyzing **Internet memes**. The model processes both **textual and visual data** to classify sentiment, humor, sarcasm, offensiveness, and motivational content. The project is designed to work with the **Memotion dataset** .
+
 
 ## Features
 - **Sentiment Classification**: Classifies memes as **Positive (+1), Neutral (0), or Negative (-1)**.
@@ -21,6 +22,9 @@ This project implements a **Multimodal Sentiment Analysis** system using **Trans
 
 ## Dataset
 - **Dataset Used**: Memotion Dataset (`Multimodal_Sentiment_Analysis_FinalAssignment.csv`)
+ **Download Dataset**:  
+[Memotion Dataset (Google Drive)](https://drive.google.com/drive/folders/1jJvBzoZ1-uYcdYRZrrHHNnH61Fl0YrIf?usp=sharing)
+
 - **Data Components**:
   - **Text**: Meme caption or embedded text.
   - **Image**: Meme image file.
@@ -67,7 +71,4 @@ model.load_state_dict(torch.load("multimodal_sentiment_model.pth"))
 ## Contributors
 - **Project Developed by**: Rohan Aditya
 - **Based on the Memotion Dataset** and Transformer models.
-
-## License
-This project is licensed under the MIT License.
 
